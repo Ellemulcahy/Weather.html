@@ -1,0 +1,69 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('https://www.thoughtco.com/thmb/aF1FgLJVmEpAj3AqgOXeLHHxNrA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/82754758-58b59a245f9b5860467e111d.jpg'); /* Ensure this points to the correct file path */
+    background-size: cover; /* Makes the image cover the entire viewport */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    color: white; /* Ensures text is visible on the background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8); /* Slight transparency for contrast */
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 400px;
+}
+
+h1 {
+    color: #0288d1;
+    margin-bottom: 1rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+input {
+    padding: 0.75rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #0288d1;
+    color: white;
+    border: none;
+    padding: 0.75rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0277bd;
+}
+
+#weatherResult {
+    margin-top: 1rem;
+}
+
+#weatherInfo {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #555;
+}
