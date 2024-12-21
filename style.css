@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-image: url('cities.jpg');
+    background-image: url('https://www.thoughtco.com/largest-cities-in-the-world-p2-1435843');
     background-size: cover; /* Makes the image cover the entire viewport */
     background-position: center; /* Centers the image */
     background-repeat: no-repeat; /* Prevents the image from repeating */
