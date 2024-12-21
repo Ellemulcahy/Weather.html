@@ -1,0 +1,1 @@
+This is a simple and interactive Weather App that allows users to check the current weather conditions for any city. The app fetches real-time data from the OpenWeatherMap API and displays information such as temperature and weather description.
