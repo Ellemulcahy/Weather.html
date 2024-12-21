@@ -3,23 +3,20 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #e3f2fd;
-    color: #333;
+    background-image: url('cities.jpg');
+    background-size: cover; /* Makes the image cover the entire viewport */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    color: white; /* Ensures text is visible on the background */
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-     background-image: url('cities.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    color: white; /* Change text color for contrast */
 }
-
 
 .container {
     text-align: center;
-    background-color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.8); /* Slight transparency for contrast */
     padding: 2rem;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
