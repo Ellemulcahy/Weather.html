@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Feedback Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="form.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Weather Feedback Form</h1>
+        <form id="feedbackForm">
+            <!-- User Details -->
+            <h2>User Details</h2>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+            <label for="city">City:</label>
+            <input type="text" id="city" name="city" placeholder="Enter your city" required>
+
+            <!-- Weather Feedback -->
+            <h2>Weather Experience</h2>
+            <label for="rating">How would you rate today's weather in your city?</label>
+            <select id="rating" name="rating">
+                <option value="">-- Select --</option>
+                <option value="1">1 - Terrible</option>
+                <option value="2">2 - Bad</option>
+                <option value="3">3 - Average</option>
+                <option value="4">4 - Good</option>
+                <option value="5">5 - Excellent</option>
+            </select>
+
+            <label for="comments">Additional Comments:</label>
+            <textarea id="comments" name="comments" rows="4" placeholder="Share your thoughts"></textarea>
+
+            <!-- Image Upload -->
+            <h2>Upload Weather Image</h2>
+            <label for="weatherImage">Upload an image of today's weather:</label>
+            <input type="file" id="weatherImage" name="weatherImage" accept="image/*">
+
+            <!-- Submission -->
+            <button type="submit">Submit Feedback</button>
+        </form>
+
+        <div id="formResponse" style="margin-top: 20px;"></div>
+    </div>
+</body>
+</html>
